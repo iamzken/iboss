@@ -1,0 +1,1 @@
+ALTER TABLE  `alarm_info` ADD COLUMN `reason_type` int(2) AFTER `summary`;

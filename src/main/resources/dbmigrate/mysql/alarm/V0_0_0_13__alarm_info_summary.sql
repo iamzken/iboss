@@ -1,0 +1,1 @@
+ALTER TABLE `alarm_info` ADD COLUMN `confirm_time` datetime AFTER `result`, ADD COLUMN `clean_time` datetime AFTER `confirm_time`, ADD COLUMN `causes` varchar(255) AFTER `clean_time`, ADD COLUMN `check_sql` varchar(255) AFTER `causes`, ADD COLUMN `summary` varchar(255) AFTER `check_sql`;

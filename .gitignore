@@ -1,0 +1,13 @@
+target/
+
+/webapp/WEB-INF/classes
+
+/.settings
+
+/.classpath
+.idea
+/.project
+/mossle.store
+.idea/
+*.iml
+devaeye.store/

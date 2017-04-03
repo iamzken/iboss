@@ -1,0 +1,1 @@
+ALTER TABLE `alarm_info` ADD COLUMN `result` varchar(100) AFTER `frequency`;
